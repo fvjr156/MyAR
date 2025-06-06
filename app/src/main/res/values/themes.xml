@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyAR" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Status bar color (use the same as action bar or darker variant) -->
+        <item name="android:statusBarColor">@color/purple_700</item>
+
+        <!-- Ensures status bar icons adapt to background color -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Action bar customization -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="titleTextColor">@color/white</item>
+        <item name="background">@color/purple_500</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+</resources>

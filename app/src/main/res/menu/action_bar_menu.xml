@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/load_model"
+        android:title="Load 3D Model"
+        android:icon="@drawable/baseline_file_upload_24"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/torch"
+        android:title="Toggle Torch"
+        android:icon="@drawable/baseline_flash_on_24"
+        app:showAsAction="always"/>
+</menu>
