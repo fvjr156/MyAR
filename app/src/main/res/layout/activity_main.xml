@@ -41,7 +41,7 @@
         android:id="@+id/instructionText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="56dp"
         android:gravity="center"
         android:paddingStart="32dp"
         android:paddingEnd="32dp"
@@ -49,7 +49,7 @@
         android:shadowRadius="8"
         android:text="@string/point_your_phone_down"
         android:textColor="@android:color/white"
-        android:textSize="28sp"
+        android:textSize="25sp"
         android:visibility="visible"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -65,5 +65,15 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         />
+
+    <include
+        layout="@layout/model_controls_menu"
+        android:id="@+id/controls_menu"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

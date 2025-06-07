@@ -7,8 +7,18 @@
         android:icon="@drawable/baseline_file_upload_24"
         app:showAsAction="never"/>
     <item
-        android:id="@+id/torch"
-        android:title="Toggle Torch"
-        android:icon="@drawable/baseline_flash_on_24"
-        app:showAsAction="always"/>
+        android:id="@+id/reset_model"
+        android:title="Reset Model"
+        android:icon="@drawable/baseline_refresh_24"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/toggle_controls"
+        android:title="Toggle Controls"
+        android:icon="@drawable/baseline_control_camera_24"
+        app:showAsAction="never"/>
+<!--    <item-->
+<!--        android:id="@+id/torch"-->
+<!--        android:title="Toggle Torch"-->
+<!--        android:icon="@drawable/baseline_flash_on_24"-->
+<!--        app:showAsAction="always"/>-->
 </menu>

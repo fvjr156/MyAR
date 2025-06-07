@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/controls_menu"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:padding="20dp"
+    android:background="#80000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scale"
+        android:textColor="@android:color/white"/>
+
+    <SeekBar
+        android:id="@+id/scaleSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progressTint="@color/my_green"
+        android:thumbTint="@color/my_green"
+        android:progress="100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Position"
+        android:textColor="@android:color/white"/>
+
+    <SeekBar
+        android:id="@+id/xPositionSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progressTint="@color/my_green"
+        android:thumbTint="@color/my_green"
+        android:progress="100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y Position"
+        android:textColor="@android:color/white"/>
+
+    <SeekBar
+        android:id="@+id/yPositionSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progressTint="@color/my_green"
+        android:thumbTint="@color/my_green"
+        android:progress="100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z Position"
+        android:textColor="@android:color/white"/>
+
+    <SeekBar
+        android:id="@+id/zPositionSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progressTint="@color/my_green"
+        android:thumbTint="@color/my_green"
+        android:progress="100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X Rotation"
+        android:textColor="@android:color/white"/>
+
+    <SeekBar
+        android:id="@+id/xRotationSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="360"
+        android:progressTint="@color/my_green"
+        android:thumbTint="@color/my_green"
+        android:progress="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y Rotation"
+        android:textColor="@android:color/white"/>
+
+    <SeekBar
+        android:id="@+id/yRotationSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="360"
+        android:progressTint="@color/my_green"
+        android:thumbTint="@color/my_green"
+        android:progress="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z Rotation"
+        android:textColor="@android:color/white"/>
+
+    <SeekBar
+        android:id="@+id/zRotationSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="360"
+        android:progressTint="@color/my_green"
+        android:thumbTint="@color/my_green"
+        android:progress="0"/>
+
+</LinearLayout>
